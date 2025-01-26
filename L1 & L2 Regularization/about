@@ -1,0 +1,25 @@
+What Are Overfitting and Underfitting?
+Overfitting
+Overfitting happens when a model gets too caught up in the nuances and random fluctuations of the training data to the point where its ability to perform well on new,
+unseen data suffers. Essentially, the model becomes overly intricate, grasping at patterns that don't hold up when applied to different datasets.
+
+
+Underfitting
+Underfitting arises when a model lacks the complexity to capture the underlying patterns within the data.
+Consequently, it inadequately fits the training data, leading to subpar performance when applied to new data.
+
+
+
+Techniques of Regularization (Effects)
+Regularization is a critical technique in machine learning to reduce overfitting, enhance model generalization, and manage model complexity.
+Several regularization techniques are used across different types of models. Here are some of the most common and effective regularization techniques:
+
+L1 Regularization (Lasso): Encourages sparsity in the model parameters. Some coefficients can shrink to zero, effectively performing feature selection.
+L2 Regularization (Ridge): It shrinks the coefficients evenly but does not necessarily bring them to zero. It helps with multicollinearity and model stability.
+Elastic Net: This is useful when there are correlations among features or to balance feature selection with coefficient shrinkage.
+Dropout: Results in a network that is robust and less likely to overfit, as it has to learn more robust features from the data that aren't reliant on any small set of neurons.
+Early Stopping: Prevents overfitting by not allowing the training to continue too long. It is a straightforward and often very effective form of regularization.
+Batch Normalization: Reduces the need for other forms of regularization and can sometimes eliminate the need for dropout.
+Weight Constraint: This constraint ensures that the weights do not grow too large, which can help prevent overfitting and improve the model's generalization.
+Data Augmentation: Although not a direct form of regularization in a mathematical sense, it acts like one by artificially increasing the size of the training set,
+which helps the model generalize better.
