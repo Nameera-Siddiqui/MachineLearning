@@ -1,0 +1,12 @@
+K-Nearest Neighbors (kNN) classification is a supervised machine learning algorithm that uses a data point's neighboring classifications to predict its class.
+It's a non-parametric algorithm that's often used for classification problems
+
+How it works:
+1. Choose the number of nearest neighbors(k).
+2. Calculate the distance between the query point and the dataset points
+3. Sort and select the k-nearest neighbours.
+4. Assign a class label based on the majority of the nearest neighbors
+
+When It is useful:
+KNN is useful when labeled data is expensive or difficult to obtain
+It can achieve high accuracy for a wide range of prediction problems
